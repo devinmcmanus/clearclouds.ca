@@ -10,3 +10,28 @@
 
 /* =Theme customization starts here
 ------------------------------------------------------- */
+:root {
+  --cc-dark-green: #99ca3c;
+  --cc-white: #f2f2f2;
+}
+
+.gform_button {
+  color: var(--cc-white) !important;
+  border-width: 2px !important;
+  border-color: var(--cc-dark-green) !important;
+  border-radius: 0px !important;
+  letter-spacing: 2px !important;
+  font-size: 16px !important;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif !important;
+  text-transform: uppercase !important;
+  background-color: var(--cc-dark-green) !important;
+}
+
+.gform_button:hover {
+  color: var(--cc-dark-green) !important;
+  border-color: var(--cc-dark-green) !important;
+  border-radius: 0 !important;
+  letter-spacing: 2px !important;
+  background-image: initial !important;
+  background-color: var(--cc-white) !important;
+}
